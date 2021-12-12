@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.butt{
+    @apply py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg 
+}
+
+.tabul{
+    @apply table p-4 bg-white shadow rounded-lg
+}
+
+.tabuldh {
+    @apply border p-4 whitespace-nowrap font-normal text-gray-900 bg-blue-400
+}
